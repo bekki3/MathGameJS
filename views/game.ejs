@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="difficultyLevels">
+                <p>Please Choose Difficulty</p>
+                <button type="button" onclick="setRange(2)">Easy</button>
+                <button type="button" onclick="setRange(10)">Normal</button>
+                <button type="button" onclick="setRange(30)">Hard</button>
+                <button type="button" onclick="setRange(50)">Insane</button>
+                
+                <%  data.forEach((player)=>{ %>
+                <div style="color: white;">
+                      <li style="list-style: none;"> <%=player.name+" "+player.score%></li>
+                        
+                </div>
+                <%  }) %>
+        </form>
+    <div id="mathGame">
+        <h1>Math Game</h1>
+    </div>
+    <div id="mathProblems"></div>
+    <p id="time"></p>
+    <form id="answerSheet">
+        <div>
+            <label for="answer">Your Answer:</label>
+            <br>
+            <input type="text" id="answer">
+        </div>
+    </form><br>
+    <div class="msg"></div><br>
+    <div id="correcto"></div>
+    <div id="score">
+        Score: 0
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+

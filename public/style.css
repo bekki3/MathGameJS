@@ -1,0 +1,146 @@
+#mathProblems{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(162, 255, 86);
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width:230px;
+    margin-bottom: 20px;
+    background-image: url('images/mathbg2.jpg');
+    background-position: center;
+    background-size: 120%;
+    filter: brightness(0.9);
+    box-shadow: 0 0 5px #fff;
+}
+#mathProblems:hover{
+    box-shadow: 0 0 10px rgb(211, 255, 174);
+    transition: 300ms;
+}
+#time{
+    height: 10px;
+    width: 270px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #00c000;
+    margin-bottom: 20px;
+}
+body{
+    background-image: url('images/mathbg.jpg');
+    background-position: center top;
+}
+#score{
+    background-color: rgb(150, 50, 0);
+}
+#mathGame{
+    text-align: center;
+    color: #ccc;
+}
+#answerSheet{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(128, 231, 44);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 248px;
+    text-align: center;
+    transition: 300ms;
+}
+#answerSheet:hover{
+    box-shadow: 0 0 10px #fff;
+}
+#answerSheet:active{
+    box-shadow: 0 0 20px #fff;
+}
+#answerSheet input
+{
+    font-size: 30px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(199, 204, 171);
+}
+#answer{
+    margin: 10px;
+}
+.msg{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    font-size: 25px;
+}
+#correcto{
+    background: #00c000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding: 0;
+    font-size: 28px;
+}
+#difficultyLevels p{
+    font-size: 24px;
+    color: white;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#difficultyLevels{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 300ms;
+    width: 445px;
+    margin-top: 5px;
+    padding: 25px;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 0 0 10px rgb(68, 68, 68);
+    border-radius: 20px;
+    text-align: center;
+}
+#difficultyLevels button{
+    transition: 150ms;
+    width: 300px;
+    font-size: 22px;
+    height: 42px;
+    background-color:rgb(68, 68, 68);
+    border: 1px solid cyan;
+    box-shadow: #00ffff 0 0 4px;
+    color: #fff;
+    border-radius: 20px;
+    margin: 7px 0;
+}
+#difficultyLevels button:hover{
+    background-color: #00ffff;
+    width: 380px;
+    color: rgb(68, 68, 68);
+}
+#difficultyLevels button:active{
+    background-color: #00cccc;
+}
+#score{
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 3px #fff;
+}
